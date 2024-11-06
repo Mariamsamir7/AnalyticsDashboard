@@ -125,7 +125,7 @@ const Sidebar: React.FC<SidebarProps> = ({ isDrawerOpen, drawerWidth, toggleDraw
         </ListItem>
         <Collapse in={openDashboard} timeout="auto" unmountOnExit>
           <List component="div" disablePadding>
-            <ListItemButton sx={{ pl: 4 }} component={Link} to="/">
+            <ListItemButton sx={{ pl: 4 }} component={Link} to="AnalyticsDashboard/">
               <ListItemText primary="Default" />
             </ListItemButton>
             <ListItemButton sx={{ pl: 4 }} component={Link} to="Dashboard/analytics">

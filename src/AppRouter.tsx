@@ -20,7 +20,7 @@ import CalenderPage from "./pages/CalenderPage";
 
 const AppRouter: React.FC = () => (
     <Routes>
-      <Route path="/" element={<DefaultPage />} />
+      <Route path="AnalyticsDashboard/" element={<DefaultPage />} />
       <Route path="Dashboard/saas" element={<SaasPage />} />
       <Route path="Dashboard/analytics" element={<AnalyticsPage />} />
       <Route path="Pages/Profile" element={<ProfilePage />} />
